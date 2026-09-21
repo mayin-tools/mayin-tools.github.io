@@ -1,3 +1,36 @@
+
+const analyticsConsentKey = 'mayin-analytics-consent-v1';
+const consentBanner = document.querySelector('[data-consent-banner]');
+let analyticsLoaded = false;
+
+function loadAnalytics() {
+  if (analyticsLoaded || !consentBanner) return;
+  analyticsLoaded = true;
+  const gaId = consentBanner.dataset.gaId;
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function gtag(){ window.dataLayer.push(arguments); };
+  window.gtag('js', new Date());
+  window.gtag('config', gaId, { anonymize_ip: true });
+  const script = document.createElement('script');
+  script.async = true;
+  script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(gaId)}`;
+  document.head.appendChild(script);
+}
+
+function saveAnalyticsChoice(value) {
+  localStorage.setItem(analyticsConsentKey, value);
+  if (consentBanner) consentBanner.hidden = true;
+  if (value === 'granted') loadAnalytics();
+}
+
+if (consentBanner) {
+  const choice = localStorage.getItem(analyticsConsentKey);
+  if (choice === 'granted') loadAnalytics();
+  else if (choice !== 'denied') consentBanner.hidden = false;
+  consentBanner.querySelector('[data-consent-accept]')?.addEventListener('click', () => saveAnalyticsChoice('granted'));
+  consentBanner.querySelector('[data-consent-reject]')?.addEventListener('click', () => saveAnalyticsChoice('denied'));
+}
+
 const searchInput = document.querySelector('[data-search-input]');
 const searchPanel = document.querySelector('[data-search-results]');
 const searchList = document.querySelector('[data-search-list]');

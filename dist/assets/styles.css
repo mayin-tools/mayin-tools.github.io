@@ -277,3 +277,17 @@ h3 { margin-bottom: 8px; font-size: 18px; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }
+
+.compact-tool-body section { padding-bottom: 26px; margin-bottom: 26px; }
+.consent-banner { position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 80; max-width: 920px; margin: 0 auto; padding: 18px; display: flex; align-items: center; justify-content: space-between; gap: 18px; border: 1px solid var(--line); background: var(--surface); box-shadow: 0 12px 38px rgb(23 32 42 / 18%); }
+.consent-banner[hidden] { display: none; }
+.consent-banner strong { display: block; margin-bottom: 4px; }
+.consent-banner p { margin: 0; color: var(--muted); font-size: 14px; }
+.consent-actions { display: flex; align-items: center; gap: 10px; flex: 0 0 auto; }
+.consent-actions button:not(.primary-button) { min-height: 42px; padding: 0 14px; border: 1px solid var(--line); background: transparent; cursor: pointer; }
+.consent-actions a { font-size: 13px; white-space: nowrap; }
+@media (max-width: 720px) {
+  .consent-banner { align-items: stretch; flex-direction: column; }
+  .consent-actions { display: grid; grid-template-columns: 1fr 1fr; }
+  .consent-actions a { grid-column: 1 / -1; }
+}
