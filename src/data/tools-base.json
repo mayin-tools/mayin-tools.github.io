@@ -1,0 +1,2802 @@
+[
+  {
+    "name": "ChatGPT",
+    "slug": "chatgpt",
+    "officialUrl": "https://chatgpt.com/",
+    "categoryId": "ai-tools",
+    "seedPurpose": "通用对话与内容辅助入口，可用于资料整理、写作、分析和代码任务。",
+    "seedNote": "登录后可保存历史与使用更多功能；输出仍需人工核对。",
+    "sourceBatch": 0,
+    "domain": "chatgpt.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Claude",
+    "slug": "claude",
+    "officialUrl": "https://claude.ai/",
+    "categoryId": "ai-tools",
+    "seedPurpose": "面向写作、长文分析、文档与代码协作的 AI 助手。",
+    "seedNote": "当前入口要求登录；功能和地区支持以官方说明为准。",
+    "sourceBatch": 0,
+    "domain": "claude.ai",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Google Gemini",
+    "slug": "google-gemini",
+    "officialUrl": "https://gemini.google.com/",
+    "categoryId": "ai-tools",
+    "seedPurpose": "Google 的通用 AI 助手入口，适合问答、内容整理和多模态任务。",
+    "seedNote": "使用 Google 账号；不同地区和账号的功能可能不同。",
+    "sourceBatch": 0,
+    "domain": "gemini.google.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Perplexity",
+    "slug": "perplexity",
+    "officialUrl": "https://www.perplexity.ai/",
+    "categoryId": "ai-tools",
+    "seedPurpose": "带来源链接的 AI 搜索与研究入口，适合快速查找主题线索。",
+    "seedNote": "不能把自动摘要代替原始来源核验；部分功能需账号。",
+    "sourceBatch": 0,
+    "domain": "perplexity.ai",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "DeepL",
+    "slug": "deepl",
+    "officialUrl": "https://www.deepl.com/translator",
+    "categoryId": "translation-writing",
+    "seedPurpose": "文本和文档翻译工具，并提供英文等语言的写作辅助能力。",
+    "seedNote": "文档、术语表和高级能力可能需要账号或付费方案。",
+    "sourceBatch": 0,
+    "domain": "deepl.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Google 翻译",
+    "slug": "google-translate",
+    "officialUrl": "https://translate.google.com/",
+    "categoryId": "translation-writing",
+    "seedPurpose": "支持文本、图片、文档和网页等多种翻译入口。",
+    "seedNote": "自动翻译可能误解专业术语、姓名和语境，重要内容需复核。",
+    "sourceBatch": 0,
+    "domain": "translate.google.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Grammarly",
+    "slug": "grammarly",
+    "officialUrl": "https://www.grammarly.com/",
+    "categoryId": "translation-writing",
+    "seedPurpose": "英文拼写、语法、语气和改写辅助工具。",
+    "seedNote": "部分建议和团队功能需要登录或订阅。",
+    "sourceBatch": 0,
+    "domain": "grammarly.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "LanguageTool",
+    "slug": "languagetool",
+    "officialUrl": "https://languagetool.org/",
+    "categoryId": "translation-writing",
+    "seedPurpose": "多语言语法、拼写和写作检查工具，可作为英文校对的补充选择。",
+    "seedNote": "支持范围和高级规则因语言及方案而异。",
+    "sourceBatch": 0,
+    "domain": "languagetool.org",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "ElevenLabs",
+    "slug": "elevenlabs",
+    "officialUrl": "https://elevenlabs.io/",
+    "categoryId": "audio-voice",
+    "seedPurpose": "AI 语音生成、配音和语音相关工作流入口。",
+    "seedNote": "生成语音前应确认授权、声音权利和平台使用规则。",
+    "sourceBatch": 0,
+    "domain": "elevenlabs.io",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Descript",
+    "slug": "descript",
+    "officialUrl": "https://www.descript.com/",
+    "categoryId": "video-subtitle",
+    "seedPurpose": "通过文字稿整理和编辑音频、视频及字幕的创作工具。",
+    "seedNote": "主要编辑功能需要账号；导出限制以当前方案为准。",
+    "sourceBatch": 0,
+    "domain": "descript.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Canva",
+    "slug": "canva",
+    "officialUrl": "https://www.canva.com/",
+    "categoryId": "design-image",
+    "seedPurpose": "社交图片、演示、视频、文档和品牌素材的一体化设计平台。",
+    "seedNote": "模板、素材和导出权限因账号及方案而异。",
+    "sourceBatch": 0,
+    "domain": "canva.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Figma",
+    "slug": "figma",
+    "officialUrl": "https://www.figma.com/",
+    "categoryId": "design-image",
+    "seedPurpose": "界面设计、原型、白板和团队评审协作工具。",
+    "seedNote": "创建和协作需要账号；团队权限应按项目设置。",
+    "sourceBatch": 0,
+    "domain": "figma.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Adobe Express",
+    "slug": "adobe-express",
+    "officialUrl": "https://www.adobe.com/express/",
+    "categoryId": "design-image",
+    "seedPurpose": "快速制作社交图片、短视频、海报和品牌内容。",
+    "seedNote": "Adobe 账号及具体套餐可能影响模板和导出功能。",
+    "sourceBatch": 0,
+    "domain": "adobe.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Photopea",
+    "slug": "photopea",
+    "officialUrl": "https://www.photopea.com/",
+    "categoryId": "design-image",
+    "seedPurpose": "浏览器内图像编辑器，适合临时打开和调整常见设计文件。",
+    "seedNote": "复杂文件可能受浏览器性能影响；导出前核对图层和字体。",
+    "sourceBatch": 0,
+    "domain": "photopea.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "CapCut",
+    "slug": "capcut",
+    "officialUrl": "https://www.capcut.com/",
+    "categoryId": "video-subtitle",
+    "seedPurpose": "在线视频剪辑、字幕和短视频内容制作工具。",
+    "seedNote": "云端、AI 和导出能力可能要求账号；音乐素材需核对许可。",
+    "sourceBatch": 0,
+    "domain": "capcut.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Unsplash",
+    "slug": "unsplash",
+    "officialUrl": "https://unsplash.com/",
+    "categoryId": "design-image",
+    "seedPurpose": "摄影图片搜索与下载入口，适合寻找视觉素材和灵感。",
+    "seedNote": "使用前查看当前许可、署名建议和品牌人物限制。",
+    "sourceBatch": 0,
+    "domain": "unsplash.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Pexels",
+    "slug": "pexels",
+    "officialUrl": "https://www.pexels.com/",
+    "categoryId": "design-image",
+    "seedPurpose": "提供照片和视频素材检索，适合社交内容和演示制作。",
+    "seedNote": "“可下载”不等于任何场景都无条件可商用，需阅读许可。",
+    "sourceBatch": 0,
+    "domain": "pexels.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Pixabay",
+    "slug": "pixabay",
+    "officialUrl": "https://pixabay.com/",
+    "categoryId": "design-image",
+    "seedPurpose": "图片、插画、视频和音频素材检索平台。",
+    "seedNote": "商标、人物肖像和再分发限制仍需单独核对。",
+    "sourceBatch": 0,
+    "domain": "pixabay.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Flaticon",
+    "slug": "flaticon",
+    "officialUrl": "https://www.flaticon.com/",
+    "categoryId": "design-image",
+    "seedPurpose": "图标和贴纸素材库，支持多种设计格式。",
+    "seedNote": "免费与付费素材的署名和下载条件不同。",
+    "sourceBatch": 0,
+    "domain": "flaticon.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Google Fonts",
+    "slug": "google-fonts",
+    "officialUrl": "https://fonts.google.com/",
+    "categoryId": "design-image",
+    "seedPurpose": "浏览和获取开源字体及字体信息的官方入口。",
+    "seedNote": "每个字体可能使用不同开源许可，发布前查看字体详情。",
+    "sourceBatch": 0,
+    "domain": "fonts.google.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "GitHub",
+    "slug": "github",
+    "officialUrl": "https://github.com/",
+    "categoryId": "developer-api",
+    "seedPurpose": "代码托管、Issue、协作评审和 Actions 自动化平台。",
+    "seedNote": "需要账号；公开仓库中的代码和密钥管理需格外谨慎。",
+    "sourceBatch": 0,
+    "domain": "github.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "GitLab",
+    "slug": "gitlab",
+    "officialUrl": "https://gitlab.com/",
+    "categoryId": "developer-api",
+    "seedPurpose": "覆盖代码托管、项目管理、CI/CD 和安全流程的开发平台。",
+    "seedNote": "云端和自托管能力不同，使用前确认方案与权限。",
+    "sourceBatch": 0,
+    "domain": "gitlab.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Cloudflare",
+    "slug": "cloudflare",
+    "officialUrl": "https://www.cloudflare.com/",
+    "categoryId": "domain-network-security",
+    "seedPurpose": "域名、DNS、CDN、安全和边缘计算服务入口。",
+    "seedNote": "配置错误可能影响全站访问，修改 DNS 前保留原记录。",
+    "sourceBatch": 0,
+    "domain": "cloudflare.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Vercel",
+    "slug": "vercel",
+    "officialUrl": "https://vercel.com/",
+    "categoryId": "developer-api",
+    "seedPurpose": "面向前端项目的代码连接、预览和部署平台。",
+    "seedNote": "需要账号和代码仓库；用量、域名与团队限制以方案为准。",
+    "sourceBatch": 0,
+    "domain": "vercel.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Netlify",
+    "slug": "netlify",
+    "officialUrl": "https://www.netlify.com/",
+    "categoryId": "developer-api",
+    "seedPurpose": "静态站与前端应用部署、预览和托管平台。",
+    "seedNote": "构建分钟、带宽和团队能力可能受方案限制。",
+    "sourceBatch": 0,
+    "domain": "netlify.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "WordPress.com",
+    "slug": "wordpress-com",
+    "officialUrl": "https://wordpress.com/",
+    "categoryId": "website-cms",
+    "seedPurpose": "托管式网站与内容发布平台，适合博客和基础企业站。",
+    "seedNote": "与自托管 WordPress 不同；插件和主题权限随方案变化。",
+    "sourceBatch": 0,
+    "domain": "wordpress.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Webflow",
+    "slug": "webflow",
+    "officialUrl": "https://webflow.com/",
+    "categoryId": "website-cms",
+    "seedPurpose": "可视化网站设计、CMS 和发布平台。",
+    "seedNote": "学习成本及站点、协作和导出能力随方案不同。",
+    "sourceBatch": 0,
+    "domain": "webflow.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Shopify",
+    "slug": "shopify",
+    "officialUrl": "https://www.shopify.com/",
+    "categoryId": "ecommerce-customer-service",
+    "seedPurpose": "独立站电商建站、商品、订单和应用生态平台。",
+    "seedNote": "涉及订阅、支付和应用费用，开店前核对目标市场要求。",
+    "sourceBatch": 0,
+    "domain": "shopify.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Namecheap",
+    "slug": "namecheap",
+    "officialUrl": "https://www.namecheap.com/",
+    "categoryId": "domain-network-security",
+    "seedPurpose": "域名注册、DNS、邮箱和托管服务入口。",
+    "seedNote": "购买前核对续费价格、隐私服务及域名转移条件。",
+    "sourceBatch": 0,
+    "domain": "namecheap.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Postman",
+    "slug": "postman",
+    "officialUrl": "https://www.postman.com/",
+    "categoryId": "developer-api",
+    "seedPurpose": "API 请求调试、文档、测试和团队协作平台。",
+    "seedNote": "工作区可能包含密钥和真实数据，分享前清理敏感信息。",
+    "sourceBatch": 0,
+    "domain": "postman.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Notion",
+    "slug": "notion",
+    "officialUrl": "https://www.notion.com/",
+    "categoryId": "project-collaboration",
+    "seedPurpose": "文档、知识库、项目与团队信息整理工作区。",
+    "seedNote": "需要账号；共享页面前核对公开权限和成员范围。",
+    "sourceBatch": 0,
+    "domain": "notion.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Trello",
+    "slug": "trello",
+    "officialUrl": "https://trello.com/",
+    "categoryId": "project-collaboration",
+    "seedPurpose": "用看板管理任务、流程和轻量项目协作。",
+    "seedNote": "需要 Atlassian 账号；自动化和视图能力因方案而异。",
+    "sourceBatch": 0,
+    "domain": "trello.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Asana",
+    "slug": "asana",
+    "officialUrl": "https://asana.com/",
+    "categoryId": "project-collaboration",
+    "seedPurpose": "团队任务、项目计划、目标和跨部门工作管理平台。",
+    "seedNote": "需要账号；复杂权限和报表通常面向团队方案。",
+    "sourceBatch": 0,
+    "domain": "asana.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "ClickUp",
+    "slug": "clickup",
+    "officialUrl": "https://clickup.com/",
+    "categoryId": "project-collaboration",
+    "seedPurpose": "集成任务、文档、目标和团队协作的工作管理平台。",
+    "seedNote": "功能较多，初次使用应先统一工作区和权限规则。",
+    "sourceBatch": 0,
+    "domain": "clickup.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Slack",
+    "slug": "slack",
+    "officialUrl": "https://slack.com/",
+    "categoryId": "project-collaboration",
+    "seedPurpose": "团队频道沟通、文件共享和应用集成平台。",
+    "seedNote": "消息保留、访客和高级管理能力因方案而异。",
+    "sourceBatch": 0,
+    "domain": "slack.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Zoom",
+    "slug": "zoom",
+    "officialUrl": "https://www.zoom.com/",
+    "categoryId": "meeting-remote-work",
+    "seedPurpose": "视频会议、在线沟通和会议协作平台。",
+    "seedNote": "会议时长、录制和团队管理能力以当前方案为准。",
+    "sourceBatch": 0,
+    "domain": "zoom.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Google Workspace",
+    "slug": "google-workspace",
+    "officialUrl": "https://workspace.google.com/",
+    "categoryId": "meeting-remote-work",
+    "seedPurpose": "Gmail、文档、表格、云盘和会议等团队办公套件。",
+    "seedNote": "需要 Google 账号；企业域名和管理员配置另有要求。",
+    "sourceBatch": 0,
+    "domain": "workspace.google.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Microsoft 365",
+    "slug": "microsoft-365",
+    "officialUrl": "https://www.microsoft.com/microsoft-365",
+    "categoryId": "meeting-remote-work",
+    "seedPurpose": "Word、Excel、PowerPoint、Teams 和云端办公服务入口。",
+    "seedNote": "个人与企业方案不同，地区页面可能自动跳转。",
+    "sourceBatch": 0,
+    "domain": "microsoft.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Calendly",
+    "slug": "calendly",
+    "officialUrl": "https://calendly.com/",
+    "categoryId": "meeting-remote-work",
+    "seedPurpose": "共享可预约时间并协调跨时区会议的排期工具。",
+    "seedNote": "需要账号；日历连接和自动化能力因方案而异。",
+    "sourceBatch": 0,
+    "domain": "calendly.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "World Time Buddy",
+    "slug": "world-time-buddy",
+    "officialUrl": "https://www.worldtimebuddy.com/",
+    "categoryId": "meeting-remote-work",
+    "seedPurpose": "对照多个城市时区并寻找会议重叠时间。",
+    "seedNote": "基础换算可直接使用；夏令时以工具当前时区数据为准。",
+    "sourceBatch": 0,
+    "domain": "worldtimebuddy.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Google Trends",
+    "slug": "google-trends",
+    "officialUrl": "https://trends.google.com/trends/",
+    "categoryId": "analytics-seo",
+    "seedPurpose": "比较搜索兴趣变化并查看地区和时间趋势。",
+    "seedNote": "数据是相对指数，不等同于精确搜索量或市场规模。",
+    "sourceBatch": 0,
+    "domain": "trends.google.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Google Search Console",
+    "slug": "google-search-console",
+    "officialUrl": "https://search.google.com/search-console/about",
+    "categoryId": "analytics-seo",
+    "seedPurpose": "查看 Google 搜索展示、点击、索引和站点问题。",
+    "seedNote": "需要 Google 账号及站点所有权验证。",
+    "sourceBatch": 0,
+    "domain": "search.google.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Google Analytics",
+    "slug": "google-analytics",
+    "officialUrl": "https://marketingplatform.google.com/about/analytics/",
+    "categoryId": "analytics-seo",
+    "seedPurpose": "分析网站和应用访问、事件与用户路径。",
+    "seedNote": "接入前应配置隐私披露，并按适用地区评估同意机制。",
+    "sourceBatch": 0,
+    "domain": "marketingplatform.google.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Similarweb",
+    "slug": "similarweb",
+    "officialUrl": "https://www.similarweb.com/",
+    "categoryId": "analytics-seo",
+    "seedPurpose": "查看网站流量估算、竞品和市场研究数据。",
+    "seedNote": "第三方流量数据属于模型估算，不应当作真实后台数据。",
+    "sourceBatch": 0,
+    "domain": "similarweb.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Ahrefs Webmaster Tools",
+    "slug": "ahrefs-webmaster-tools",
+    "officialUrl": "https://ahrefs.com/webmaster-tools",
+    "categoryId": "analytics-seo",
+    "seedPurpose": "面向已验证站点的 SEO 检查、链接和自然搜索分析。",
+    "seedNote": "需要账号和站点验证；数据覆盖与额度以官方说明为准。",
+    "sourceBatch": 0,
+    "domain": "ahrefs.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Semrush",
+    "slug": "semrush",
+    "officialUrl": "https://www.semrush.com/",
+    "categoryId": "analytics-seo",
+    "seedPurpose": "SEO、关键词、竞品、内容和品牌可见度研究平台。",
+    "seedNote": "多数深度功能需要账号或付费方案，数据为第三方估算。",
+    "sourceBatch": 0,
+    "domain": "semrush.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Mailchimp",
+    "slug": "mailchimp",
+    "officialUrl": "https://mailchimp.com/",
+    "categoryId": "marketing-social",
+    "seedPurpose": "邮件营销、订阅者管理和自动化活动平台。",
+    "seedNote": "发送邮件前需取得合法订阅同意并处理退订要求。",
+    "sourceBatch": 0,
+    "domain": "mailchimp.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "HubSpot",
+    "slug": "hubspot",
+    "officialUrl": "https://www.hubspot.com/",
+    "categoryId": "ecommerce-customer-service",
+    "seedPurpose": "CRM、营销、销售和客户服务工具集合。",
+    "seedNote": "模块众多，使用前确认数据权限、集成和套餐边界。",
+    "sourceBatch": 0,
+    "domain": "hubspot.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Buffer",
+    "slug": "buffer",
+    "officialUrl": "https://buffer.com/",
+    "categoryId": "marketing-social",
+    "seedPurpose": "跨社交平台排期发布、内容管理和基础分析工具。",
+    "seedNote": "需要连接社交账号；支持平台和发布能力可能变化。",
+    "sourceBatch": 0,
+    "domain": "buffer.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "TikTok Creative Center",
+    "slug": "tiktok-creative-center",
+    "officialUrl": "https://ads.tiktok.com/business/creativecenter/",
+    "categoryId": "marketing-social",
+    "seedPurpose": "查看 TikTok 创意趋势、热门素材和广告灵感。",
+    "seedNote": "数据与入口会按地区变化，不等同于广告效果保证。",
+    "sourceBatch": 0,
+    "domain": "ads.tiktok.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Microsoft Copilot",
+    "slug": "microsoft-copilot",
+    "officialUrl": "https://copilot.microsoft.com/",
+    "categoryId": "ai-tools",
+    "sourceBatch": 1,
+    "domain": "copilot.microsoft.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Poe",
+    "slug": "poe",
+    "officialUrl": "https://poe.com/",
+    "categoryId": "ai-tools",
+    "sourceBatch": 1,
+    "domain": "poe.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Gemini Notebook（原 NotebookLM）",
+    "slug": "gemini-notebook",
+    "officialUrl": "https://notebooklm.google.com/",
+    "categoryId": "ai-tools",
+    "sourceBatch": 1,
+    "domain": "notebooklm.google.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Mistral Vibe（原 Le Chat）",
+    "slug": "mistral-vibe",
+    "officialUrl": "https://chat.mistral.ai/chat",
+    "categoryId": "ai-tools",
+    "sourceBatch": 1,
+    "domain": "chat.mistral.ai",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "You.com Search APIs",
+    "slug": "you-com",
+    "officialUrl": "https://you.com/",
+    "categoryId": "developer-api",
+    "sourceBatch": 1,
+    "domain": "you.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "QuillBot",
+    "slug": "quillbot",
+    "officialUrl": "https://quillbot.com/",
+    "categoryId": "translation-writing",
+    "sourceBatch": 1,
+    "domain": "quillbot.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Reverso",
+    "slug": "reverso",
+    "officialUrl": "https://www.reverso.net/",
+    "categoryId": "translation-writing",
+    "sourceBatch": 1,
+    "domain": "reverso.net",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Microsoft Translator",
+    "slug": "microsoft-translator",
+    "officialUrl": "https://www.microsoft.com/en-us/translator/",
+    "categoryId": "translation-writing",
+    "sourceBatch": 1,
+    "domain": "microsoft.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Wordtune",
+    "slug": "wordtune",
+    "officialUrl": "https://www.wordtune.com/",
+    "categoryId": "translation-writing",
+    "sourceBatch": 1,
+    "domain": "wordtune.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Hemingway Editor",
+    "slug": "hemingway-editor",
+    "officialUrl": "https://hemingwayapp.com/",
+    "categoryId": "translation-writing",
+    "sourceBatch": 1,
+    "domain": "hemingwayapp.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "remove.bg",
+    "slug": "remove-bg",
+    "officialUrl": "https://www.remove.bg/",
+    "categoryId": "design-image",
+    "sourceBatch": 1,
+    "domain": "remove.bg",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "TinyPNG",
+    "slug": "tinypng",
+    "officialUrl": "https://tinypng.com/",
+    "categoryId": "design-image",
+    "sourceBatch": 1,
+    "domain": "tinypng.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Squoosh",
+    "slug": "squoosh",
+    "officialUrl": "https://squoosh.app/",
+    "categoryId": "design-image",
+    "sourceBatch": 1,
+    "domain": "squoosh.app",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Coolors",
+    "slug": "coolors",
+    "officialUrl": "https://coolors.co/",
+    "categoryId": "design-image",
+    "sourceBatch": 1,
+    "domain": "coolors.co",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "VEED",
+    "slug": "veed",
+    "officialUrl": "https://www.veed.io/",
+    "categoryId": "video-subtitle",
+    "sourceBatch": 1,
+    "domain": "veed.io",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Clipchamp",
+    "slug": "clipchamp",
+    "officialUrl": "https://clipchamp.com/",
+    "categoryId": "video-subtitle",
+    "sourceBatch": 1,
+    "domain": "clipchamp.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "DaVinci Resolve",
+    "slug": "davinci-resolve",
+    "officialUrl": "https://www.blackmagicdesign.com/products/davinciresolve",
+    "categoryId": "video-subtitle",
+    "sourceBatch": 1,
+    "domain": "blackmagicdesign.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "OBS Studio",
+    "slug": "obs-studio",
+    "officialUrl": "https://obsproject.com/",
+    "categoryId": "video-subtitle",
+    "sourceBatch": 1,
+    "domain": "obsproject.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Loom",
+    "slug": "loom",
+    "officialUrl": "https://www.loom.com/",
+    "categoryId": "video-subtitle",
+    "sourceBatch": 1,
+    "domain": "loom.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Audacity",
+    "slug": "audacity",
+    "officialUrl": "https://www.audacityteam.org/",
+    "categoryId": "audio-voice",
+    "sourceBatch": 1,
+    "domain": "audacityteam.org",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Riverside",
+    "slug": "riverside",
+    "officialUrl": "https://riverside.com/",
+    "categoryId": "audio-voice",
+    "sourceBatch": 1,
+    "domain": "riverside.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Adobe Podcast",
+    "slug": "adobe-podcast",
+    "officialUrl": "https://podcast.adobe.com/",
+    "categoryId": "audio-voice",
+    "sourceBatch": 1,
+    "domain": "podcast.adobe.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Auphonic",
+    "slug": "auphonic",
+    "officialUrl": "https://auphonic.com/",
+    "categoryId": "audio-voice",
+    "sourceBatch": 1,
+    "domain": "auphonic.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Wix",
+    "slug": "wix",
+    "officialUrl": "https://www.wix.com/",
+    "categoryId": "website-cms",
+    "sourceBatch": 1,
+    "domain": "wix.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Squarespace",
+    "slug": "squarespace",
+    "officialUrl": "https://www.squarespace.com/",
+    "categoryId": "website-cms",
+    "sourceBatch": 1,
+    "domain": "squarespace.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Framer",
+    "slug": "framer",
+    "officialUrl": "https://www.framer.com/",
+    "categoryId": "website-cms",
+    "sourceBatch": 1,
+    "domain": "framer.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Ghost",
+    "slug": "ghost",
+    "officialUrl": "https://ghost.org/",
+    "categoryId": "website-cms",
+    "sourceBatch": 1,
+    "domain": "ghost.org",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Replit",
+    "slug": "replit",
+    "officialUrl": "https://replit.com/",
+    "categoryId": "developer-api",
+    "sourceBatch": 1,
+    "domain": "replit.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "CodePen",
+    "slug": "codepen",
+    "officialUrl": "https://codepen.io/",
+    "categoryId": "developer-api",
+    "sourceBatch": 1,
+    "domain": "codepen.io",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "StackBlitz",
+    "slug": "stackblitz",
+    "officialUrl": "https://stackblitz.com/",
+    "categoryId": "developer-api",
+    "sourceBatch": 1,
+    "domain": "stackblitz.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Docker",
+    "slug": "docker",
+    "officialUrl": "https://www.docker.com/",
+    "categoryId": "developer-api",
+    "sourceBatch": 1,
+    "domain": "docker.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "GoDaddy",
+    "slug": "godaddy",
+    "officialUrl": "https://www.godaddy.com/",
+    "categoryId": "domain-network-security",
+    "sourceBatch": 1,
+    "domain": "godaddy.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Porkbun",
+    "slug": "porkbun",
+    "officialUrl": "https://porkbun.com/",
+    "categoryId": "domain-network-security",
+    "sourceBatch": 1,
+    "domain": "porkbun.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "ICANN Lookup",
+    "slug": "icann-lookup",
+    "officialUrl": "https://lookup.icann.org/",
+    "categoryId": "domain-network-security",
+    "sourceBatch": 1,
+    "domain": "lookup.icann.org",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "SSL Labs Server Test",
+    "slug": "ssl-labs-server-test",
+    "officialUrl": "https://www.ssllabs.com/ssltest/",
+    "categoryId": "domain-network-security",
+    "sourceBatch": 1,
+    "domain": "ssllabs.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Airtable",
+    "slug": "airtable",
+    "officialUrl": "https://www.airtable.com/",
+    "categoryId": "project-collaboration",
+    "sourceBatch": 1,
+    "domain": "airtable.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Miro",
+    "slug": "miro",
+    "officialUrl": "https://miro.com/",
+    "categoryId": "project-collaboration",
+    "sourceBatch": 1,
+    "domain": "miro.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "monday.com",
+    "slug": "monday-com",
+    "officialUrl": "https://monday.com/",
+    "categoryId": "project-collaboration",
+    "sourceBatch": 1,
+    "domain": "monday.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Google Meet",
+    "slug": "google-meet",
+    "officialUrl": "https://workspace.google.com/products/meet/",
+    "categoryId": "meeting-remote-work",
+    "sourceBatch": 1,
+    "domain": "workspace.google.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Microsoft Teams",
+    "slug": "microsoft-teams",
+    "officialUrl": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
+    "categoryId": "meeting-remote-work",
+    "sourceBatch": 1,
+    "domain": "microsoft.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Adobe Acrobat Online",
+    "slug": "adobe-acrobat-online",
+    "officialUrl": "https://www.adobe.com/acrobat/online.html",
+    "categoryId": "document-pdf",
+    "sourceBatch": 1,
+    "domain": "adobe.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Smallpdf",
+    "slug": "smallpdf",
+    "officialUrl": "https://smallpdf.com/",
+    "categoryId": "document-pdf",
+    "sourceBatch": 1,
+    "domain": "smallpdf.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "iLovePDF",
+    "slug": "ilovepdf",
+    "officialUrl": "https://www.ilovepdf.com/",
+    "categoryId": "document-pdf",
+    "sourceBatch": 1,
+    "domain": "ilovepdf.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "PDF24 Tools",
+    "slug": "pdf24-tools",
+    "officialUrl": "https://tools.pdf24.org/",
+    "categoryId": "document-pdf",
+    "sourceBatch": 1,
+    "domain": "tools.pdf24.org",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Dropbox",
+    "slug": "dropbox",
+    "officialUrl": "https://www.dropbox.com/",
+    "categoryId": "file-cloud-storage",
+    "sourceBatch": 1,
+    "domain": "dropbox.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "WeTransfer",
+    "slug": "wetransfer",
+    "officialUrl": "https://wetransfer.com/",
+    "categoryId": "file-cloud-storage",
+    "sourceBatch": 1,
+    "domain": "wetransfer.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "CloudConvert",
+    "slug": "cloudconvert",
+    "officialUrl": "https://cloudconvert.com/",
+    "categoryId": "file-cloud-storage",
+    "sourceBatch": 1,
+    "domain": "cloudconvert.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Bing Webmaster Tools",
+    "slug": "bing-webmaster-tools",
+    "officialUrl": "https://www.bing.com/webmasters/about",
+    "categoryId": "analytics-seo",
+    "sourceBatch": 1,
+    "domain": "bing.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "PageSpeed Insights",
+    "slug": "pagespeed-insights",
+    "officialUrl": "https://pagespeed.web.dev/",
+    "categoryId": "analytics-seo",
+    "sourceBatch": 1,
+    "domain": "pagespeed.web.dev",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Screaming Frog SEO Spider",
+    "slug": "screaming-frog-seo-spider",
+    "officialUrl": "https://www.screamingfrog.co.uk/seo-spider/",
+    "categoryId": "analytics-seo",
+    "sourceBatch": 1,
+    "domain": "screamingfrog.co.uk",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Hootsuite",
+    "slug": "hootsuite",
+    "officialUrl": "https://www.hootsuite.com/",
+    "categoryId": "marketing-social",
+    "sourceBatch": 1,
+    "domain": "hootsuite.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Meta Business Suite",
+    "slug": "meta-business-suite",
+    "officialUrl": "https://www.facebook.com/business/tools/meta-business-suite",
+    "categoryId": "marketing-social",
+    "sourceBatch": 1,
+    "domain": "facebook.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Stripe",
+    "slug": "stripe",
+    "officialUrl": "https://stripe.com/",
+    "categoryId": "ecommerce-customer-service",
+    "sourceBatch": 1,
+    "domain": "stripe.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Zendesk",
+    "slug": "zendesk",
+    "officialUrl": "https://www.zendesk.com/",
+    "categoryId": "ecommerce-customer-service",
+    "sourceBatch": 1,
+    "domain": "zendesk.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Grok",
+    "slug": "grok",
+    "officialUrl": "https://grok.com/",
+    "categoryId": "ai-tools",
+    "sourceBatch": 2,
+    "domain": "grok.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Meta AI",
+    "slug": "meta-ai",
+    "officialUrl": "https://www.meta.ai/",
+    "categoryId": "ai-tools",
+    "sourceBatch": 2,
+    "domain": "meta.ai",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "HuggingChat",
+    "slug": "huggingchat",
+    "officialUrl": "https://huggingface.co/chat/",
+    "categoryId": "ai-tools",
+    "sourceBatch": 2,
+    "domain": "huggingface.co",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Character.AI",
+    "slug": "character-ai",
+    "officialUrl": "https://character.ai/",
+    "categoryId": "ai-tools",
+    "sourceBatch": 2,
+    "domain": "character.ai",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Pi",
+    "slug": "pi-ai",
+    "officialUrl": "https://pi.ai/",
+    "categoryId": "ai-tools",
+    "sourceBatch": 2,
+    "domain": "pi.ai",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Kagi Assistant",
+    "slug": "kagi-assistant",
+    "officialUrl": "https://assistant.kagi.com/",
+    "categoryId": "ai-tools",
+    "sourceBatch": 2,
+    "domain": "assistant.kagi.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Elicit",
+    "slug": "elicit",
+    "officialUrl": "https://elicit.com/",
+    "categoryId": "ai-tools",
+    "sourceBatch": 2,
+    "domain": "elicit.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Consensus",
+    "slug": "consensus",
+    "officialUrl": "https://consensus.app/",
+    "categoryId": "ai-tools",
+    "sourceBatch": 2,
+    "domain": "consensus.app",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Scite",
+    "slug": "scite",
+    "officialUrl": "https://scite.ai/",
+    "categoryId": "ai-tools",
+    "sourceBatch": 2,
+    "domain": "scite.ai",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "ResearchRabbit",
+    "slug": "researchrabbit",
+    "officialUrl": "https://www.researchrabbit.ai/",
+    "categoryId": "ai-tools",
+    "sourceBatch": 2,
+    "domain": "researchrabbit.ai",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Connected Papers",
+    "slug": "connected-papers",
+    "officialUrl": "https://www.connectedpapers.com/",
+    "categoryId": "ai-tools",
+    "sourceBatch": 2,
+    "domain": "connectedpapers.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Humata",
+    "slug": "humata",
+    "officialUrl": "https://www.humata.ai/",
+    "categoryId": "ai-tools",
+    "sourceBatch": 2,
+    "domain": "humata.ai",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "ProWritingAid",
+    "slug": "prowritingaid",
+    "officialUrl": "https://prowritingaid.com/",
+    "categoryId": "translation-writing",
+    "sourceBatch": 2,
+    "domain": "prowritingaid.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Ginger",
+    "slug": "ginger",
+    "officialUrl": "https://www.gingersoftware.com/",
+    "categoryId": "translation-writing",
+    "sourceBatch": 2,
+    "domain": "gingersoftware.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Papago",
+    "slug": "papago",
+    "officialUrl": "https://papago.naver.com/",
+    "categoryId": "translation-writing",
+    "sourceBatch": 2,
+    "domain": "papago.naver.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Yandex Translate",
+    "slug": "yandex-translate",
+    "officialUrl": "https://translate.yandex.com/",
+    "categoryId": "translation-writing",
+    "sourceBatch": 2,
+    "domain": "translate.yandex.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Lingvanex",
+    "slug": "lingvanex",
+    "officialUrl": "https://lingvanex.com/",
+    "categoryId": "translation-writing",
+    "sourceBatch": 2,
+    "domain": "lingvanex.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Mate Translate",
+    "slug": "mate-translate",
+    "officialUrl": "https://matetranslate.com/en",
+    "categoryId": "translation-writing",
+    "sourceBatch": 2,
+    "domain": "matetranslate.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "WordReference",
+    "slug": "wordreference",
+    "officialUrl": "https://www.wordreference.com/",
+    "categoryId": "translation-writing",
+    "sourceBatch": 2,
+    "domain": "wordreference.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Writefull",
+    "slug": "writefull",
+    "officialUrl": "https://www.writefull.com/",
+    "categoryId": "translation-writing",
+    "sourceBatch": 2,
+    "domain": "writefull.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Trinka",
+    "slug": "trinka",
+    "officialUrl": "https://www.trinka.ai/",
+    "categoryId": "translation-writing",
+    "sourceBatch": 2,
+    "domain": "trinka.ai",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Sapling",
+    "slug": "sapling",
+    "officialUrl": "https://sapling.ai/",
+    "categoryId": "translation-writing",
+    "sourceBatch": 2,
+    "domain": "sapling.ai",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Language Reactor",
+    "slug": "language-reactor",
+    "officialUrl": "https://www.languagereactor.com/",
+    "categoryId": "translation-writing",
+    "sourceBatch": 2,
+    "domain": "languagereactor.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Adobe Color",
+    "slug": "adobe-color",
+    "officialUrl": "https://color.adobe.com/",
+    "categoryId": "design-image",
+    "sourceBatch": 2,
+    "domain": "color.adobe.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "GIMP",
+    "slug": "gimp",
+    "officialUrl": "https://www.gimp.org/",
+    "categoryId": "design-image",
+    "sourceBatch": 2,
+    "domain": "gimp.org",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Inkscape",
+    "slug": "inkscape",
+    "officialUrl": "https://inkscape.org/",
+    "categoryId": "design-image",
+    "sourceBatch": 2,
+    "domain": "inkscape.org",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Krita",
+    "slug": "krita",
+    "officialUrl": "https://krita.org/",
+    "categoryId": "design-image",
+    "sourceBatch": 2,
+    "domain": "krita.org",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Penpot",
+    "slug": "penpot",
+    "officialUrl": "https://penpot.app/",
+    "categoryId": "design-image",
+    "sourceBatch": 2,
+    "domain": "penpot.app",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Blender",
+    "slug": "blender",
+    "officialUrl": "https://www.blender.org/",
+    "categoryId": "design-image",
+    "sourceBatch": 2,
+    "domain": "blender.org",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "The Noun Project",
+    "slug": "noun-project",
+    "officialUrl": "https://thenounproject.com/",
+    "categoryId": "design-image",
+    "sourceBatch": 2,
+    "domain": "thenounproject.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Final Cut Pro",
+    "slug": "final-cut-pro",
+    "officialUrl": "https://www.apple.com/final-cut-pro/",
+    "categoryId": "video-subtitle",
+    "sourceBatch": 2,
+    "domain": "apple.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Adobe Premiere",
+    "slug": "adobe-premiere",
+    "officialUrl": "https://www.adobe.com/products/premiere.html",
+    "categoryId": "video-subtitle",
+    "sourceBatch": 2,
+    "domain": "adobe.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Kdenlive",
+    "slug": "kdenlive",
+    "officialUrl": "https://kdenlive.org/",
+    "categoryId": "video-subtitle",
+    "sourceBatch": 2,
+    "domain": "kdenlive.org",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Shotcut",
+    "slug": "shotcut",
+    "officialUrl": "https://www.shotcut.org/",
+    "categoryId": "video-subtitle",
+    "sourceBatch": 2,
+    "domain": "shotcut.org",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "OpenShot",
+    "slug": "openshot",
+    "officialUrl": "https://www.openshot.org/",
+    "categoryId": "video-subtitle",
+    "sourceBatch": 2,
+    "domain": "openshot.org",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "HandBrake",
+    "slug": "handbrake",
+    "officialUrl": "https://handbrake.fr/",
+    "categoryId": "video-subtitle",
+    "sourceBatch": 2,
+    "domain": "handbrake.fr",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Vimeo",
+    "slug": "vimeo",
+    "officialUrl": "https://vimeo.com/",
+    "categoryId": "video-subtitle",
+    "sourceBatch": 2,
+    "domain": "vimeo.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Wistia",
+    "slug": "wistia",
+    "officialUrl": "https://wistia.com/",
+    "categoryId": "video-subtitle",
+    "sourceBatch": 2,
+    "domain": "wistia.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Vidyard",
+    "slug": "vidyard",
+    "officialUrl": "https://www.vidyard.com/",
+    "categoryId": "video-subtitle",
+    "sourceBatch": 2,
+    "domain": "vidyard.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Zubtitle",
+    "slug": "zubtitle",
+    "officialUrl": "https://zubtitle.com/",
+    "categoryId": "video-subtitle",
+    "sourceBatch": 2,
+    "domain": "zubtitle.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Kapwing",
+    "slug": "kapwing",
+    "officialUrl": "https://www.kapwing.com/",
+    "categoryId": "video-subtitle",
+    "sourceBatch": 2,
+    "domain": "kapwing.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Clideo",
+    "slug": "clideo",
+    "officialUrl": "https://clideo.com/",
+    "categoryId": "video-subtitle",
+    "sourceBatch": 2,
+    "domain": "clideo.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Subtitle Edit",
+    "slug": "subtitle-edit",
+    "officialUrl": "https://www.nikse.dk/subtitleedit",
+    "categoryId": "video-subtitle",
+    "sourceBatch": 2,
+    "domain": "nikse.dk",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Async（原 Podcastle）",
+    "slug": "async",
+    "officialUrl": "https://async.com/",
+    "categoryId": "video-subtitle",
+    "sourceBatch": 2,
+    "domain": "async.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "GarageBand",
+    "slug": "garageband",
+    "officialUrl": "https://www.apple.com/mac/garageband/",
+    "categoryId": "audio-voice",
+    "sourceBatch": 2,
+    "domain": "apple.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Adobe Audition",
+    "slug": "adobe-audition",
+    "officialUrl": "https://www.adobe.com/products/audition.html",
+    "categoryId": "audio-voice",
+    "sourceBatch": 2,
+    "domain": "adobe.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Ocenaudio",
+    "slug": "ocenaudio",
+    "officialUrl": "https://www.ocenaudio.com/",
+    "categoryId": "audio-voice",
+    "sourceBatch": 2,
+    "domain": "ocenaudio.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "REAPER",
+    "slug": "reaper",
+    "officialUrl": "https://www.reaper.fm/",
+    "categoryId": "audio-voice",
+    "sourceBatch": 2,
+    "domain": "reaper.fm",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Soundtrap",
+    "slug": "soundtrap",
+    "officialUrl": "https://www.soundtrap.com/musicmakers",
+    "categoryId": "audio-voice",
+    "sourceBatch": 2,
+    "domain": "soundtrap.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "BandLab",
+    "slug": "bandlab",
+    "officialUrl": "https://www.bandlab.com/",
+    "categoryId": "audio-voice",
+    "sourceBatch": 2,
+    "domain": "bandlab.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Cleanvoice",
+    "slug": "cleanvoice",
+    "officialUrl": "https://cleanvoice.ai/",
+    "categoryId": "audio-voice",
+    "sourceBatch": 2,
+    "domain": "cleanvoice.ai",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Krisp",
+    "slug": "krisp",
+    "officialUrl": "https://krisp.ai/",
+    "categoryId": "audio-voice",
+    "sourceBatch": 2,
+    "domain": "krisp.ai",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Murf",
+    "slug": "murf",
+    "officialUrl": "https://murf.ai/",
+    "categoryId": "audio-voice",
+    "sourceBatch": 2,
+    "domain": "murf.ai",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "PlayHT",
+    "slug": "playht",
+    "officialUrl": "https://playht.co/",
+    "categoryId": "audio-voice",
+    "sourceBatch": 2,
+    "domain": "playht.co",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Speechify",
+    "slug": "speechify",
+    "officialUrl": "https://speechify.com/",
+    "categoryId": "audio-voice",
+    "sourceBatch": 2,
+    "domain": "speechify.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "NaturalReader",
+    "slug": "naturalreader",
+    "officialUrl": "https://www.naturalreaders.com/",
+    "categoryId": "audio-voice",
+    "sourceBatch": 2,
+    "domain": "naturalreaders.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Voicemod",
+    "slug": "voicemod",
+    "officialUrl": "https://www.voicemod.net/",
+    "categoryId": "audio-voice",
+    "sourceBatch": 2,
+    "domain": "voicemod.net",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "LALAL.AI",
+    "slug": "lalal-ai",
+    "officialUrl": "https://www.lalal.ai/",
+    "categoryId": "audio-voice",
+    "sourceBatch": 2,
+    "domain": "lalal.ai",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "WordPress.org",
+    "slug": "wordpress-org",
+    "officialUrl": "https://wordpress.org/",
+    "categoryId": "website-cms",
+    "sourceBatch": 2,
+    "domain": "wordpress.org",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Drupal",
+    "slug": "drupal",
+    "officialUrl": "https://www.drupal.org/",
+    "categoryId": "website-cms",
+    "sourceBatch": 2,
+    "domain": "drupal.org",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Joomla",
+    "slug": "joomla",
+    "officialUrl": "https://www.joomla.org/",
+    "categoryId": "website-cms",
+    "sourceBatch": 2,
+    "domain": "joomla.org",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Blogger",
+    "slug": "blogger",
+    "officialUrl": "https://www.blogger.com/",
+    "categoryId": "website-cms",
+    "sourceBatch": 2,
+    "domain": "blogger.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Medium",
+    "slug": "medium",
+    "officialUrl": "https://medium.com/",
+    "categoryId": "website-cms",
+    "sourceBatch": 2,
+    "domain": "medium.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Substack",
+    "slug": "substack",
+    "officialUrl": "https://substack.com/",
+    "categoryId": "website-cms",
+    "sourceBatch": 2,
+    "domain": "substack.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Carrd",
+    "slug": "carrd",
+    "officialUrl": "https://carrd.com/",
+    "categoryId": "website-cms",
+    "sourceBatch": 2,
+    "domain": "carrd.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Dorik",
+    "slug": "dorik",
+    "officialUrl": "https://dorik.com/",
+    "categoryId": "website-cms",
+    "sourceBatch": 2,
+    "domain": "dorik.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Tilda",
+    "slug": "tilda",
+    "officialUrl": "https://tilda.cc/",
+    "categoryId": "website-cms",
+    "sourceBatch": 2,
+    "domain": "tilda.cc",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Duda",
+    "slug": "duda",
+    "officialUrl": "https://www.duda.co/",
+    "categoryId": "website-cms",
+    "sourceBatch": 2,
+    "domain": "duda.co",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Webnode",
+    "slug": "webnode",
+    "officialUrl": "https://www.webnode.com/",
+    "categoryId": "website-cms",
+    "sourceBatch": 2,
+    "domain": "webnode.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "SITE123",
+    "slug": "site123",
+    "officialUrl": "https://www.site123.com/",
+    "categoryId": "website-cms",
+    "sourceBatch": 2,
+    "domain": "site123.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Typedream",
+    "slug": "typedream",
+    "officialUrl": "https://typedream.com/",
+    "categoryId": "website-cms",
+    "sourceBatch": 2,
+    "domain": "typedream.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Readymag",
+    "slug": "readymag",
+    "officialUrl": "https://readymag.com/",
+    "categoryId": "website-cms",
+    "sourceBatch": 2,
+    "domain": "readymag.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Visual Studio Code",
+    "slug": "visual-studio-code",
+    "officialUrl": "https://code.visualstudio.com/",
+    "categoryId": "developer-api",
+    "sourceBatch": 2,
+    "domain": "code.visualstudio.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "JetBrains",
+    "slug": "jetbrains",
+    "officialUrl": "https://www.jetbrains.com/",
+    "categoryId": "developer-api",
+    "sourceBatch": 2,
+    "domain": "jetbrains.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "npm",
+    "slug": "npm",
+    "officialUrl": "https://www.npmjs.com/",
+    "categoryId": "developer-api",
+    "sourceBatch": 2,
+    "domain": "npmjs.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "PyPI",
+    "slug": "pypi",
+    "officialUrl": "https://pypi.org/",
+    "categoryId": "developer-api",
+    "sourceBatch": 2,
+    "domain": "pypi.org",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "CodeSandbox",
+    "slug": "codesandbox",
+    "officialUrl": "https://codesandbox.io/",
+    "categoryId": "developer-api",
+    "sourceBatch": 2,
+    "domain": "codesandbox.io",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Insomnia",
+    "slug": "insomnia",
+    "officialUrl": "https://insomnia.rest/",
+    "categoryId": "developer-api",
+    "sourceBatch": 2,
+    "domain": "insomnia.rest",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Hoppscotch",
+    "slug": "hoppscotch",
+    "officialUrl": "https://hoppscotch.io/",
+    "categoryId": "developer-api",
+    "sourceBatch": 2,
+    "domain": "hoppscotch.io",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Swagger",
+    "slug": "swagger",
+    "officialUrl": "https://swagger.io/",
+    "categoryId": "developer-api",
+    "sourceBatch": 2,
+    "domain": "swagger.io",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Render",
+    "slug": "render",
+    "officialUrl": "https://render.com/",
+    "categoryId": "developer-api",
+    "sourceBatch": 2,
+    "domain": "render.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Railway",
+    "slug": "railway",
+    "officialUrl": "https://railway.com/",
+    "categoryId": "developer-api",
+    "sourceBatch": 2,
+    "domain": "railway.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Name.com",
+    "slug": "name-com",
+    "officialUrl": "https://www.name.com/",
+    "categoryId": "domain-network-security",
+    "sourceBatch": 2,
+    "domain": "name.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Dynadot",
+    "slug": "dynadot",
+    "officialUrl": "https://www.dynadot.com/",
+    "categoryId": "domain-network-security",
+    "sourceBatch": 2,
+    "domain": "dynadot.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Hover",
+    "slug": "hover",
+    "officialUrl": "https://www.hover.com/",
+    "categoryId": "domain-network-security",
+    "sourceBatch": 2,
+    "domain": "hover.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Gandi",
+    "slug": "gandi",
+    "officialUrl": "https://www.gandi.net/",
+    "categoryId": "domain-network-security",
+    "sourceBatch": 2,
+    "domain": "gandi.net",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "DigitalOcean",
+    "slug": "digitalocean",
+    "officialUrl": "https://www.digitalocean.com/",
+    "categoryId": "domain-network-security",
+    "sourceBatch": 2,
+    "domain": "digitalocean.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Akamai",
+    "slug": "akamai",
+    "officialUrl": "https://www.akamai.com/",
+    "categoryId": "domain-network-security",
+    "sourceBatch": 2,
+    "domain": "akamai.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Fastly",
+    "slug": "fastly",
+    "officialUrl": "https://www.fastly.com/",
+    "categoryId": "domain-network-security",
+    "sourceBatch": 2,
+    "domain": "fastly.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Sucuri",
+    "slug": "sucuri",
+    "officialUrl": "https://sucuri.net/",
+    "categoryId": "domain-network-security",
+    "sourceBatch": 2,
+    "domain": "sucuri.net",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Let's Encrypt",
+    "slug": "lets-encrypt",
+    "officialUrl": "https://letsencrypt.org/",
+    "categoryId": "domain-network-security",
+    "sourceBatch": 2,
+    "domain": "letsencrypt.org",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "VirusTotal",
+    "slug": "virustotal",
+    "officialUrl": "https://www.virustotal.com/",
+    "categoryId": "domain-network-security",
+    "sourceBatch": 2,
+    "domain": "virustotal.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "SecurityHeaders",
+    "slug": "securityheaders",
+    "officialUrl": "https://securityheaders.com/",
+    "categoryId": "domain-network-security",
+    "sourceBatch": 2,
+    "domain": "securityheaders.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "MXToolbox",
+    "slug": "mxtoolbox",
+    "officialUrl": "https://mxtoolbox.com/",
+    "categoryId": "domain-network-security",
+    "sourceBatch": 2,
+    "domain": "mxtoolbox.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "DNSViz",
+    "slug": "dnsviz",
+    "officialUrl": "https://dnsviz.net/",
+    "categoryId": "domain-network-security",
+    "sourceBatch": 2,
+    "domain": "dnsviz.net",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Pingdom",
+    "slug": "pingdom",
+    "officialUrl": "https://www.pingdom.com/",
+    "categoryId": "domain-network-security",
+    "sourceBatch": 2,
+    "domain": "pingdom.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Basecamp",
+    "slug": "basecamp",
+    "officialUrl": "https://basecamp.com/",
+    "categoryId": "project-collaboration",
+    "sourceBatch": 2,
+    "domain": "basecamp.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Wrike",
+    "slug": "wrike",
+    "officialUrl": "https://www.wrike.com/",
+    "categoryId": "project-collaboration",
+    "sourceBatch": 2,
+    "domain": "wrike.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Smartsheet",
+    "slug": "smartsheet",
+    "officialUrl": "https://www.smartsheet.com/",
+    "categoryId": "project-collaboration",
+    "sourceBatch": 2,
+    "domain": "smartsheet.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Teamwork",
+    "slug": "teamwork",
+    "officialUrl": "https://www.teamwork.com/",
+    "categoryId": "project-collaboration",
+    "sourceBatch": 2,
+    "domain": "teamwork.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Jira",
+    "slug": "jira",
+    "officialUrl": "https://www.atlassian.com/software/jira",
+    "categoryId": "project-collaboration",
+    "sourceBatch": 2,
+    "domain": "atlassian.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Confluence",
+    "slug": "confluence",
+    "officialUrl": "https://www.atlassian.com/software/confluence",
+    "categoryId": "project-collaboration",
+    "sourceBatch": 2,
+    "domain": "atlassian.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Linear",
+    "slug": "linear",
+    "officialUrl": "https://linear.app/",
+    "categoryId": "project-collaboration",
+    "sourceBatch": 2,
+    "domain": "linear.app",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Todoist",
+    "slug": "todoist",
+    "officialUrl": "https://todoist.com/",
+    "categoryId": "project-collaboration",
+    "sourceBatch": 2,
+    "domain": "todoist.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Microsoft Planner",
+    "slug": "microsoft-planner",
+    "officialUrl": "https://www.microsoft.com/en-us/microsoft-365/planner/microsoft-planner",
+    "categoryId": "project-collaboration",
+    "sourceBatch": 2,
+    "domain": "microsoft.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Zoho Projects",
+    "slug": "zoho-projects",
+    "officialUrl": "https://www.zoho.com/projects/",
+    "categoryId": "project-collaboration",
+    "sourceBatch": 2,
+    "domain": "zoho.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "MeisterTask",
+    "slug": "meistertask",
+    "officialUrl": "https://www.meistertask.com/",
+    "categoryId": "project-collaboration",
+    "sourceBatch": 2,
+    "domain": "meistertask.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Coda",
+    "slug": "coda",
+    "officialUrl": "https://coda.io/",
+    "categoryId": "project-collaboration",
+    "sourceBatch": 2,
+    "domain": "coda.io",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Whereby",
+    "slug": "whereby",
+    "officialUrl": "https://whereby.com/",
+    "categoryId": "meeting-remote-work",
+    "sourceBatch": 2,
+    "domain": "whereby.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Webex",
+    "slug": "webex",
+    "officialUrl": "https://www.webex.com/",
+    "categoryId": "meeting-remote-work",
+    "sourceBatch": 2,
+    "domain": "webex.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Jitsi Meet",
+    "slug": "jitsi-meet",
+    "officialUrl": "https://meet.jit.si/",
+    "categoryId": "meeting-remote-work",
+    "sourceBatch": 2,
+    "domain": "meet.jit.si",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "GoTo Meeting",
+    "slug": "goto-meeting",
+    "officialUrl": "https://www.goto.com/meeting",
+    "categoryId": "meeting-remote-work",
+    "sourceBatch": 2,
+    "domain": "goto.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "TeamViewer",
+    "slug": "teamviewer",
+    "officialUrl": "https://www.teamviewer.com/",
+    "categoryId": "meeting-remote-work",
+    "sourceBatch": 2,
+    "domain": "teamviewer.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "AnyDesk",
+    "slug": "anydesk",
+    "officialUrl": "https://anydesk.com/",
+    "categoryId": "meeting-remote-work",
+    "sourceBatch": 2,
+    "domain": "anydesk.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "RustDesk",
+    "slug": "rustdesk",
+    "officialUrl": "https://rustdesk.com/",
+    "categoryId": "meeting-remote-work",
+    "sourceBatch": 2,
+    "domain": "rustdesk.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Doodle",
+    "slug": "doodle",
+    "officialUrl": "https://doodle.com/",
+    "categoryId": "meeting-remote-work",
+    "sourceBatch": 2,
+    "domain": "doodle.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "SavvyCal",
+    "slug": "savvycal",
+    "officialUrl": "https://savvycal.com/",
+    "categoryId": "meeting-remote-work",
+    "sourceBatch": 2,
+    "domain": "savvycal.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Cal.com",
+    "slug": "cal-com",
+    "officialUrl": "https://cal.com/",
+    "categoryId": "meeting-remote-work",
+    "sourceBatch": 2,
+    "domain": "cal.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Clockify",
+    "slug": "clockify",
+    "officialUrl": "https://clockify.me/",
+    "categoryId": "meeting-remote-work",
+    "sourceBatch": 2,
+    "domain": "clockify.me",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Toggl Track",
+    "slug": "toggl-track",
+    "officialUrl": "https://toggl.com/",
+    "categoryId": "meeting-remote-work",
+    "sourceBatch": 2,
+    "domain": "toggl.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Timeanddate Meeting Planner",
+    "slug": "timeanddate-meeting-planner",
+    "officialUrl": "https://www.timeanddate.com/worldclock/meeting.html",
+    "categoryId": "meeting-remote-work",
+    "sourceBatch": 2,
+    "domain": "timeanddate.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Sejda",
+    "slug": "sejda",
+    "officialUrl": "https://www.sejda.com/",
+    "categoryId": "document-pdf",
+    "sourceBatch": 2,
+    "domain": "sejda.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "DocHub",
+    "slug": "dochub",
+    "officialUrl": "https://www.dochub.com/",
+    "categoryId": "document-pdf",
+    "sourceBatch": 2,
+    "domain": "dochub.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "PDFescape",
+    "slug": "pdfescape",
+    "officialUrl": "https://www.pdfescape.com/",
+    "categoryId": "document-pdf",
+    "sourceBatch": 2,
+    "domain": "pdfescape.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "PDF Candy",
+    "slug": "pdf-candy",
+    "officialUrl": "https://pdfcandy.com/",
+    "categoryId": "document-pdf",
+    "sourceBatch": 2,
+    "domain": "pdfcandy.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Xodo",
+    "slug": "xodo",
+    "officialUrl": "https://xodo.com/",
+    "categoryId": "document-pdf",
+    "sourceBatch": 2,
+    "domain": "xodo.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Foxit PDF Editor",
+    "slug": "foxit-pdf-editor",
+    "officialUrl": "https://www.foxit.com/pdf-editor/",
+    "categoryId": "document-pdf",
+    "sourceBatch": 2,
+    "domain": "foxit.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Nitro PDF Pro",
+    "slug": "nitro-pdf-pro",
+    "officialUrl": "https://www.gonitro.com/pdf",
+    "categoryId": "document-pdf",
+    "sourceBatch": 2,
+    "domain": "gonitro.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "LibreOffice",
+    "slug": "libreoffice",
+    "officialUrl": "https://www.libreoffice.org/",
+    "categoryId": "document-pdf",
+    "sourceBatch": 2,
+    "domain": "libreoffice.org",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "ONLYOFFICE",
+    "slug": "onlyoffice",
+    "officialUrl": "https://www.onlyoffice.com/",
+    "categoryId": "document-pdf",
+    "sourceBatch": 2,
+    "domain": "onlyoffice.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Zoho Writer",
+    "slug": "zoho-writer",
+    "officialUrl": "https://www.zoho.com/writer/",
+    "categoryId": "document-pdf",
+    "sourceBatch": 2,
+    "domain": "zoho.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Google Docs",
+    "slug": "google-docs",
+    "officialUrl": "https://docs.google.com/",
+    "categoryId": "document-pdf",
+    "sourceBatch": 2,
+    "domain": "docs.google.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Microsoft Word",
+    "slug": "microsoft-word",
+    "officialUrl": "https://www.microsoft.com/microsoft-365/word",
+    "categoryId": "document-pdf",
+    "sourceBatch": 2,
+    "domain": "microsoft.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "DocuSign",
+    "slug": "docusign",
+    "officialUrl": "https://www.docusign.com/",
+    "categoryId": "document-pdf",
+    "sourceBatch": 2,
+    "domain": "docusign.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Dropbox Sign",
+    "slug": "dropbox-sign",
+    "officialUrl": "https://sign.dropbox.com/",
+    "categoryId": "document-pdf",
+    "sourceBatch": 2,
+    "domain": "sign.dropbox.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "PandaDoc",
+    "slug": "pandadoc",
+    "officialUrl": "https://www.pandadoc.com/",
+    "categoryId": "document-pdf",
+    "sourceBatch": 2,
+    "domain": "pandadoc.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "PDFgear",
+    "slug": "pdfgear",
+    "officialUrl": "https://www.pdfgear.com/",
+    "categoryId": "document-pdf",
+    "sourceBatch": 2,
+    "domain": "pdfgear.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Google Drive",
+    "slug": "google-drive",
+    "officialUrl": "https://drive.google.com/",
+    "categoryId": "file-cloud-storage",
+    "sourceBatch": 2,
+    "domain": "drive.google.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "OneDrive",
+    "slug": "onedrive",
+    "officialUrl": "https://www.microsoft.com/microsoft-365/onedrive/online-cloud-storage",
+    "categoryId": "file-cloud-storage",
+    "sourceBatch": 2,
+    "domain": "microsoft.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Box",
+    "slug": "box",
+    "officialUrl": "https://www.box.com/",
+    "categoryId": "file-cloud-storage",
+    "sourceBatch": 2,
+    "domain": "box.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "pCloud",
+    "slug": "pcloud",
+    "officialUrl": "https://www.pcloud.com/",
+    "categoryId": "file-cloud-storage",
+    "sourceBatch": 2,
+    "domain": "pcloud.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "MEGA",
+    "slug": "mega",
+    "officialUrl": "https://mega.io/",
+    "categoryId": "file-cloud-storage",
+    "sourceBatch": 2,
+    "domain": "mega.io",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Sync.com",
+    "slug": "sync-com",
+    "officialUrl": "https://www.sync.com/",
+    "categoryId": "file-cloud-storage",
+    "sourceBatch": 2,
+    "domain": "sync.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Proton Drive",
+    "slug": "proton-drive",
+    "officialUrl": "https://proton.me/drive",
+    "categoryId": "file-cloud-storage",
+    "sourceBatch": 2,
+    "domain": "proton.me",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "iCloud Drive",
+    "slug": "icloud-drive",
+    "officialUrl": "https://www.icloud.com/iclouddrive/",
+    "categoryId": "file-cloud-storage",
+    "sourceBatch": 2,
+    "domain": "icloud.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Send Anywhere",
+    "slug": "send-anywhere",
+    "officialUrl": "https://send-anywhere.com/",
+    "categoryId": "file-cloud-storage",
+    "sourceBatch": 2,
+    "domain": "send-anywhere.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Filemail",
+    "slug": "filemail",
+    "officialUrl": "https://www.filemail.com/",
+    "categoryId": "file-cloud-storage",
+    "sourceBatch": 2,
+    "domain": "filemail.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Smash",
+    "slug": "smash",
+    "officialUrl": "https://fromsmash.com/",
+    "categoryId": "file-cloud-storage",
+    "sourceBatch": 2,
+    "domain": "fromsmash.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "TransferNow",
+    "slug": "transfernow",
+    "officialUrl": "https://www.transfernow.net/",
+    "categoryId": "file-cloud-storage",
+    "sourceBatch": 2,
+    "domain": "transfernow.net",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Tresorit",
+    "slug": "tresorit",
+    "officialUrl": "https://tresorit.com/",
+    "categoryId": "file-cloud-storage",
+    "sourceBatch": 2,
+    "domain": "tresorit.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Internxt",
+    "slug": "internxt",
+    "officialUrl": "https://internxt.com/",
+    "categoryId": "file-cloud-storage",
+    "sourceBatch": 2,
+    "domain": "internxt.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Convertio",
+    "slug": "convertio",
+    "officialUrl": "https://convertio.co/",
+    "categoryId": "file-cloud-storage",
+    "sourceBatch": 2,
+    "domain": "convertio.co",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "FreeConvert",
+    "slug": "freeconvert",
+    "officialUrl": "https://www.freeconvert.com/",
+    "categoryId": "file-cloud-storage",
+    "sourceBatch": 2,
+    "domain": "freeconvert.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Zamzar",
+    "slug": "zamzar",
+    "officialUrl": "https://www.zamzar.com/",
+    "categoryId": "file-cloud-storage",
+    "sourceBatch": 2,
+    "domain": "zamzar.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Moz Pro",
+    "slug": "moz-pro",
+    "officialUrl": "https://moz.com/products/pro",
+    "categoryId": "analytics-seo",
+    "sourceBatch": 2,
+    "domain": "moz.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Ubersuggest",
+    "slug": "ubersuggest",
+    "officialUrl": "https://neilpatel.com/ubersuggest/",
+    "categoryId": "analytics-seo",
+    "sourceBatch": 2,
+    "domain": "neilpatel.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Google Keyword Planner",
+    "slug": "google-keyword-planner",
+    "officialUrl": "https://business.google.com/us/ad-tools/keyword-planner/",
+    "categoryId": "analytics-seo",
+    "sourceBatch": 2,
+    "domain": "business.google.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "GTmetrix",
+    "slug": "gtmetrix",
+    "officialUrl": "https://gtmetrix.com/",
+    "categoryId": "analytics-seo",
+    "sourceBatch": 2,
+    "domain": "gtmetrix.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Matomo",
+    "slug": "matomo",
+    "officialUrl": "https://matomo.org/",
+    "categoryId": "analytics-seo",
+    "sourceBatch": 2,
+    "domain": "matomo.org",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Plausible Analytics",
+    "slug": "plausible-analytics",
+    "officialUrl": "https://plausible.io/",
+    "categoryId": "analytics-seo",
+    "sourceBatch": 2,
+    "domain": "plausible.io",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Fathom Analytics",
+    "slug": "fathom-analytics",
+    "officialUrl": "https://usefathom.com/",
+    "categoryId": "analytics-seo",
+    "sourceBatch": 2,
+    "domain": "usefathom.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Microsoft Clarity",
+    "slug": "microsoft-clarity",
+    "officialUrl": "https://clarity.microsoft.com/",
+    "categoryId": "analytics-seo",
+    "sourceBatch": 2,
+    "domain": "clarity.microsoft.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Looker Studio",
+    "slug": "looker-studio",
+    "officialUrl": "https://lookerstudio.google.com/",
+    "categoryId": "analytics-seo",
+    "sourceBatch": 2,
+    "domain": "lookerstudio.google.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Google Tag Manager",
+    "slug": "google-tag-manager",
+    "officialUrl": "https://tagmanager.google.com/",
+    "categoryId": "analytics-seo",
+    "sourceBatch": 2,
+    "domain": "tagmanager.google.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Sitebulb",
+    "slug": "sitebulb",
+    "officialUrl": "https://sitebulb.com/",
+    "categoryId": "analytics-seo",
+    "sourceBatch": 2,
+    "domain": "sitebulb.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Later",
+    "slug": "later",
+    "officialUrl": "https://later.com/",
+    "categoryId": "marketing-social",
+    "sourceBatch": 2,
+    "domain": "later.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Sprout Social",
+    "slug": "sprout-social",
+    "officialUrl": "https://sproutsocial.com/",
+    "categoryId": "marketing-social",
+    "sourceBatch": 2,
+    "domain": "sproutsocial.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "SocialPilot",
+    "slug": "socialpilot",
+    "officialUrl": "https://www.socialpilot.co/",
+    "categoryId": "marketing-social",
+    "sourceBatch": 2,
+    "domain": "socialpilot.co",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Metricool",
+    "slug": "metricool",
+    "officialUrl": "https://metricool.com/",
+    "categoryId": "marketing-social",
+    "sourceBatch": 2,
+    "domain": "metricool.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Brevo",
+    "slug": "brevo",
+    "officialUrl": "https://www.brevo.com/",
+    "categoryId": "marketing-social",
+    "sourceBatch": 2,
+    "domain": "brevo.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Klaviyo",
+    "slug": "klaviyo",
+    "officialUrl": "https://www.klaviyo.com/",
+    "categoryId": "marketing-social",
+    "sourceBatch": 2,
+    "domain": "klaviyo.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Kit",
+    "slug": "kit",
+    "officialUrl": "https://kit.com/",
+    "categoryId": "marketing-social",
+    "sourceBatch": 2,
+    "domain": "kit.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "MailerLite",
+    "slug": "mailerlite",
+    "officialUrl": "https://www.mailerlite.com/",
+    "categoryId": "marketing-social",
+    "sourceBatch": 2,
+    "domain": "mailerlite.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Campaign Monitor",
+    "slug": "campaign-monitor",
+    "officialUrl": "https://www.campaignmonitor.com/",
+    "categoryId": "marketing-social",
+    "sourceBatch": 2,
+    "domain": "campaignmonitor.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Constant Contact",
+    "slug": "constant-contact",
+    "officialUrl": "https://www.constantcontact.com/",
+    "categoryId": "marketing-social",
+    "sourceBatch": 2,
+    "domain": "constantcontact.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Google Ads",
+    "slug": "google-ads",
+    "officialUrl": "https://ads.google.com/",
+    "categoryId": "marketing-social",
+    "sourceBatch": 2,
+    "domain": "ads.google.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Meta Ad Library",
+    "slug": "meta-ad-library",
+    "officialUrl": "https://www.facebook.com/ads/library/",
+    "categoryId": "marketing-social",
+    "sourceBatch": 2,
+    "domain": "facebook.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Pinterest Trends",
+    "slug": "pinterest-trends",
+    "officialUrl": "https://trends.pinterest.com/",
+    "categoryId": "marketing-social",
+    "sourceBatch": 2,
+    "domain": "trends.pinterest.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "TikTok Ads Manager",
+    "slug": "tiktok-ads-manager",
+    "officialUrl": "https://ads.tiktok.com/",
+    "categoryId": "marketing-social",
+    "sourceBatch": 2,
+    "domain": "ads.tiktok.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "LinkedIn Campaign Manager",
+    "slug": "linkedin-campaign-manager",
+    "officialUrl": "https://business.linkedin.com/advertise/ads/campaign-manager",
+    "categoryId": "marketing-social",
+    "sourceBatch": 2,
+    "domain": "business.linkedin.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "WooCommerce",
+    "slug": "woocommerce",
+    "officialUrl": "https://woocommerce.com/",
+    "categoryId": "ecommerce-customer-service",
+    "sourceBatch": 2,
+    "domain": "woocommerce.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "BigCommerce",
+    "slug": "bigcommerce",
+    "officialUrl": "https://www.bigcommerce.com/",
+    "categoryId": "ecommerce-customer-service",
+    "sourceBatch": 2,
+    "domain": "bigcommerce.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Ecwid",
+    "slug": "ecwid",
+    "officialUrl": "https://www.ecwid.com/",
+    "categoryId": "ecommerce-customer-service",
+    "sourceBatch": 2,
+    "domain": "ecwid.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Etsy Seller",
+    "slug": "etsy-seller",
+    "officialUrl": "https://www.etsy.com/sell",
+    "categoryId": "ecommerce-customer-service",
+    "sourceBatch": 2,
+    "domain": "etsy.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Amazon Seller Central",
+    "slug": "amazon-seller-central",
+    "officialUrl": "https://sellercentral.amazon.com/",
+    "categoryId": "ecommerce-customer-service",
+    "sourceBatch": 2,
+    "domain": "sellercentral.amazon.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "eBay Seller Center",
+    "slug": "ebay-seller-center",
+    "officialUrl": "https://www.ebay.com/sellercenter",
+    "categoryId": "ecommerce-customer-service",
+    "sourceBatch": 2,
+    "domain": "ebay.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "PayPal",
+    "slug": "paypal",
+    "officialUrl": "https://www.paypal.com/",
+    "categoryId": "ecommerce-customer-service",
+    "sourceBatch": 2,
+    "domain": "paypal.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Wise Business",
+    "slug": "wise-business",
+    "officialUrl": "https://wise.com/business/",
+    "categoryId": "ecommerce-customer-service",
+    "sourceBatch": 2,
+    "domain": "wise.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Intercom",
+    "slug": "intercom",
+    "officialUrl": "https://www.intercom.com/",
+    "categoryId": "ecommerce-customer-service",
+    "sourceBatch": 2,
+    "domain": "intercom.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Freshdesk",
+    "slug": "freshdesk",
+    "officialUrl": "https://www.freshworks.com/freshdesk/",
+    "categoryId": "ecommerce-customer-service",
+    "sourceBatch": 2,
+    "domain": "freshworks.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Tidio",
+    "slug": "tidio",
+    "officialUrl": "https://www.tidio.com/",
+    "categoryId": "ecommerce-customer-service",
+    "sourceBatch": 2,
+    "domain": "tidio.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Gorgias",
+    "slug": "gorgias",
+    "officialUrl": "https://www.gorgias.com/",
+    "categoryId": "ecommerce-customer-service",
+    "sourceBatch": 2,
+    "domain": "gorgias.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Zoho CRM",
+    "slug": "zoho-crm",
+    "officialUrl": "https://www.zoho.com/crm/",
+    "categoryId": "ecommerce-customer-service",
+    "sourceBatch": 2,
+    "domain": "zoho.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Salesforce",
+    "slug": "salesforce",
+    "officialUrl": "https://www.salesforce.com/",
+    "categoryId": "ecommerce-customer-service",
+    "sourceBatch": 2,
+    "domain": "salesforce.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Pipedrive",
+    "slug": "pipedrive",
+    "officialUrl": "https://www.pipedrive.com/",
+    "categoryId": "ecommerce-customer-service",
+    "sourceBatch": 2,
+    "domain": "pipedrive.com",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "name": "Help Scout",
+    "slug": "help-scout",
+    "officialUrl": "https://www.helpscout.com/",
+    "categoryId": "ecommerce-customer-service",
+    "sourceBatch": 2,
+    "domain": "helpscout.com",
+    "lastVerified": "2026-09-21"
+  }
+]

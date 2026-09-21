@@ -1,0 +1,12 @@
+{
+  "name": "mayin-navigation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare": "node scripts/prepare-data.mjs",
+    "build": "node scripts/build.mjs && inkscape dist/assets/og-cover.svg --export-filename=dist/assets/og-cover.png --export-width=1200 --export-height=630",
+    "check": "node scripts/check.mjs",
+    "preview": "node scripts/serve.mjs"
+  }
+}
