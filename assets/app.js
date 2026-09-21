@@ -1,16 +1,39 @@
-
 const analyticsConsentKey = 'mayin-analytics-consent-v1';
 const consentBanner = document.querySelector('[data-consent-banner]');
 let analyticsLoaded = false;
 
-function loadAnalytics() {
+function initAnalytics() {
   if (analyticsLoaded || !consentBanner) return;
-  analyticsLoaded = true;
   const gaId = consentBanner.dataset.gaId;
+  if (!gaId) return;
+
+  analyticsLoaded = true;
   window.dataLayer = window.dataLayer || [];
-  window.gtag = function gtag(){ window.dataLayer.push(arguments); };
+  window.gtag = window.gtag || function gtag(){ window.dataLayer.push(arguments); };
+
+  // Advanced Consent Mode: load the Google tag on every page, but keep
+  // analytics and advertising storage denied until the visitor chooses.
+  window.gtag('consent', 'default', {
+    analytics_storage: 'denied',
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+    wait_for_update: 500
+  });
+
+  const choice = localStorage.getItem(analyticsConsentKey);
+  if (choice === 'granted') {
+    window.gtag('consent', 'update', {
+      analytics_storage: 'granted',
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied'
+    });
+  }
+
   window.gtag('js', new Date());
   window.gtag('config', gaId, { anonymize_ip: true });
+
   const script = document.createElement('script');
   script.async = true;
   script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(gaId)}`;
@@ -20,13 +43,21 @@ function loadAnalytics() {
 function saveAnalyticsChoice(value) {
   localStorage.setItem(analyticsConsentKey, value);
   if (consentBanner) consentBanner.hidden = true;
-  if (value === 'granted') loadAnalytics();
+
+  if (typeof window.gtag === 'function') {
+    window.gtag('consent', 'update', {
+      analytics_storage: value === 'granted' ? 'granted' : 'denied',
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied'
+    });
+  }
 }
 
 if (consentBanner) {
+  initAnalytics();
   const choice = localStorage.getItem(analyticsConsentKey);
-  if (choice === 'granted') loadAnalytics();
-  else if (choice !== 'denied') consentBanner.hidden = false;
+  if (choice !== 'granted' && choice !== 'denied') consentBanner.hidden = false;
   consentBanner.querySelector('[data-consent-accept]')?.addEventListener('click', () => saveAnalyticsChoice('granted'));
   consentBanner.querySelector('[data-consent-reject]')?.addEventListener('click', () => saveAnalyticsChoice('denied'));
 }
