@@ -21,3 +21,39 @@
 - 电商与客户服务：https://mayin-tools.github.io/ecommerce-customer-service-tools/
 
 工具页提供用途、开始方式、限制和官方网站入口。迈引导航不是所列工具的官方网站。
+
+## 实用指南
+- https://mayin-tools.github.io/guides/
+- https://mayin-tools.github.io/guides/canva-vs-figma/
+- https://mayin-tools.github.io/guides/chatgpt-vs-claude/
+- https://mayin-tools.github.io/guides/check-google-indexing/
+- https://mayin-tools.github.io/guides/compress-pdf-tools/
+- https://mayin-tools.github.io/guides/deepl-vs-google-translate/
+- https://mayin-tools.github.io/guides/google-analytics-vs-clarity/
+- https://mayin-tools.github.io/guides/obs-vs-davinci-resolve/
+- https://mayin-tools.github.io/guides/shopify-vs-woocommerce/
+- https://mayin-tools.github.io/guides/subtitle-tools/
+- https://mayin-tools.github.io/guides/website-speed-test-tools/
+
+
+- Plausible vs Google Analytics：先问你到底需要多少分析能力: https://mayin-tools.github.io/guides/plausible-vs-google-analytics/
+- Adobe Premiere vs DaVinci Resolve：不要只看“专业”，要看你的后期链路: https://mayin-tools.github.io/guides/premiere-vs-davinci-resolve/
+- Gemini Notebook 怎么用？一个更稳的资料研究流程: https://mayin-tools.github.io/guides/gemini-notebook-guide/
+- Adobe Acrobat vs Smallpdf：一个偏完整 PDF 工作流，一个偏快速在线任务: https://mayin-tools.github.io/guides/acrobat-vs-smallpdf/
+- Looker Studio 仪表盘怎么做？先把“要做什么决定”写清楚: https://mayin-tools.github.io/guides/looker-studio-dashboard/
+
+- Word 长文档怎么排版？先用样式和分节控制结构: https://mayin-tools.github.io/guides/word-long-document-workflow/
+- Adobe Podcast 人声增强怎么用？先测试一小段，再决定整段处理: https://mayin-tools.github.io/guides/adobe-podcast-workflow/
+
+- Vercel vs Netlify：先看框架和发布流程，再看平台名气: https://mayin-tools.github.io/guides/vercel-vs-netlify/
+- Google Trends vs Similarweb：一个看搜索兴趣，一个看网站竞争格局: https://mayin-tools.github.io/guides/google-trends-vs-similarweb/
+- Slack vs Microsoft Teams：先看团队生态，再看聊天功能: https://mayin-tools.github.io/guides/slack-vs-microsoft-teams/
+- Google Workspace vs Microsoft 365: https://mayin-tools.github.io/guides/google-workspace-vs-microsoft-365/
+- Grammarly vs LanguageTool: https://mayin-tools.github.io/guides/grammarly-vs-languagetool/
+- Calendly 预约流程: https://mayin-tools.github.io/guides/calendly-scheduling-workflow/
+
+
+
+- 独立站建站工具怎么选？先按业务任务分清平台类型: https://mayin-tools.github.io/guides/website-builder-choice/
+- SEO 工具怎么选？先按问题分工，不要追求“一站式全能”: https://mayin-tools.github.io/guides/seo-tools-choice/
+- AI 写作工具怎么选？先分清“起草、重写、校对、翻译”: https://mayin-tools.github.io/guides/ai-writing-tools-choice/
