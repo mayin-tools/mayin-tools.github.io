@@ -1,60 +1,68 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="zh-CN">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PyPI：主要用途和使用提醒｜迈引导航</title>
-  <meta name="description" content="PyPI：Python 软件包的官方索引和分发入口。PyPI 的用量、构建、请求或协作限制可能变化，接入正式项目之前先确认当前配额。">
-  <meta name="robots" content="noindex,follow">
-  <link rel="canonical" href="https://mayin-tools.github.io/tools/pypi/">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="zh_CN">
-  <meta property="og:site_name" content="迈引导航">
-  <meta property="og:title" content="PyPI：主要用途和使用提醒｜迈引导航">
-  <meta property="og:description" content="PyPI：Python 软件包的官方索引和分发入口。PyPI 的用量、构建、请求或协作限制可能变化，接入正式项目之前先确认当前配额。">
-  <meta property="og:url" content="https://mayin-tools.github.io/tools/pypi/">
-  <meta property="og:image" content="https://mayin-tools.github.io/assets/og-cover.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="stylesheet" href="/assets/styles.css">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"使用 PyPI 前先看这两点","description":"PyPI：Python 软件包的官方索引和分发入口。PyPI 的用量、构建、请求或协作限制可能变化，接入正式项目之前先确认当前配额。","url":"https://mayin-tools.github.io/tools/pypi/","inLanguage":"zh-CN","isPartOf":{"@type":"WebSite","name":"迈引导航","url":"https://mayin-tools.github.io/"},"about":{"@type":"Thing","name":"PyPI","url":"https://pypi.org/"}}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://mayin-tools.github.io/"},{"@type":"ListItem","position":2,"name":"开发与 API","item":"https://mayin-tools.github.io/developer-api-tools/"},{"@type":"ListItem","position":3,"name":"PyPI"}]}</script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="strict-origin-when-cross-origin" name="referrer"/><meta content="#0f766e" name="theme-color"/><meta content="light" name="color-scheme"/>
+<title>PyPI 是什么？Python 包安装、依赖与供应链安全｜迈引导航</title>
+<meta content="PyPI 是 Python 生态常用的软件包索引。了解 pip 安装、虚拟环境、版本锁定、同名包风险和发布者核验，减少依赖冲突与供应链问题。" name="description"/>
+<meta content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" name="robots"/>
+<link href="https://mayin-tools.github.io/tools/pypi/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="zh_CN" property="og:locale"/>
+<meta content="迈引导航" property="og:site_name"/>
+<meta content="PyPI 是什么？Python 包安装、依赖与供应链安全｜迈引导航" property="og:title"/>
+<meta content="PyPI 是 Python 生态常用的软件包索引。了解 pip 安装、虚拟环境、版本锁定、同名包风险和发布者核验，减少依赖冲突与供应链问题。" property="og:description"/>
+<meta content="https://mayin-tools.github.io/tools/pypi/" property="og:url"/>
+<meta content="https://mayin-tools.github.io/assets/og-cover.png" property="og:image"/><meta content="迈引导航：跨境办公与出海工具导航" property="og:image:alt"/><meta content="630" property="og:image:height"/><meta content="1200" property="og:image:width"/>
+<meta content="summary_large_image" name="twitter:card"/><meta content="PyPI 是什么？Python 包安装、依赖与供应链安全｜迈引导航" name="twitter:title"/><meta content="PyPI 是 Python 生态常用的软件包索引。了解 pip 安装、虚拟环境、版本锁定、同名包风险和发布者核验，减少依赖冲突与供应链问题。" name="twitter:description"/><meta content="https://mayin-tools.github.io/assets/og-cover.png" name="twitter:image"/>
+<link href="/assets/favicon.svg" rel="icon" type="image/svg+xml"/><link href="/assets/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<link href="/assets/styles.css" rel="stylesheet"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"PyPI 是什么？安装 Python 包前先看名称、版本和来源","description":"PyPI 是 Python 生态常用的软件包索引。了解 pip 安装、虚拟环境、版本锁定、同名包风险和发布者核验，减少依赖冲突与供应链问题。","url":"https://mayin-tools.github.io/tools/pypi/","inLanguage":"zh-CN","isPartOf":{"@type":"WebSite","name":"迈引导航","url":"https://mayin-tools.github.io/"},"about":{"@type":"Thing","name":"PyPI","url":"https://pypi.org/"},"dateModified":"2026-10-06"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://mayin-tools.github.io/"},{"@type":"ListItem","position":2,"name":"开发与 API","item":"https://mayin-tools.github.io/developer-api-tools/"},{"@type":"ListItem","position":3,"name":"PyPI"}]}</script>
 </head>
 <body>
 <a class="skip-link" href="#main">跳到主要内容</a>
 <header class="site-header">
-  <div class="header-inner">
-    <a class="brand" href="/"><span class="brand-mark">↗</span> 迈引导航</a>
-    <nav class="main-nav" data-main-nav aria-label="主导航">
-      <a href="/">首页</a>
-      <a href="/tools/">全部工具</a>
-      <a href="/#categories">分类</a>
-      <a href="/about/">关于</a>
-    </nav>
-    <div class="header-actions">
-      <button class="icon-button" type="button" data-favorite-open aria-label="打开我的收藏" title="我的收藏">☆</button>
-      <button class="icon-button menu-button" type="button" data-menu-button aria-label="打开导航菜单" aria-expanded="false" title="菜单">☰</button>
-    </div>
-  </div>
-</header>
-<main id="main"><nav class="breadcrumbs container" aria-label="面包屑"><ol><li><a href="/">首页</a></li><li><a href="/developer-api-tools/">开发与 API</a></li><li><span aria-current="page">PyPI</span></li></ol></nav><header class="article-head"><div class="container"><p class="eyebrow">开发与 API</p><h1>使用 PyPI 前先看这两点</h1><p>PyPI 是否值得继续了解，先看它解决的问题是不是你现在遇到的。Python 软件包的官方索引和分发入口。</p><div class="official-line"><a class="primary-button" href="https://pypi.org/" target="_blank" rel="noopener noreferrer external" data-tool-open data-tool-id="pypi" data-category-id="developer-api">访问 PyPI 官方网站 ↗</a><span class="official-domain">将打开 pypi.org</span><button class="favorite-button" type="button" data-favorite-id="pypi" aria-pressed="false">☆ 收藏</button></div><p class="third-party-note">第三方工具入口，本站与 PyPI 运营方无隶属关系。</p></div></header><div class="container tool-main"><div class="article-layout"><article class="article-body compact-tool-body"><section id="part-1"><h2>PyPI 的用途</h2><p>Python 软件包的官方索引和分发入口。</p></section><section id="part-2"><h2>决定使用前先确认</h2><p>PyPI 的用量、构建、请求或协作限制可能变化，接入正式项目之前先确认当前配额。</p></section><aside class="promo" aria-label="推广内容"><p class="promo-label">推广</p><a href="https://huyuejsq.co/" target="_blank" rel="sponsored noopener noreferrer" data-promo-click data-placement="tool_developer-api"><picture><source media="(max-width: 720px)" srcset="/assets/mayin-huyue-banner-mobile.webp" type="image/webp"><source srcset="/assets/mayin-huyue-banner-desktop.webp" type="image/webp"><source media="(max-width: 720px)" srcset="/assets/mayin-huyue-banner-mobile.png"><img src="/assets/mayin-huyue-banner-desktop.png" alt="虎跃加速，多平台网络连接工具推广" width="1200" height="400" loading="lazy"></picture></a></aside><section id="part-3"><h2>如果想继续比较</h2><div class="related-list"><a href="/tools/swagger/"><strong>Swagger</strong><span>用于 API 设计、文档生成和测试的工具体系。</span></a><a href="/tools/gitlab/"><strong>GitLab</strong><span>覆盖代码托管、项目管理、CI/CD 和安全流程的开发平台。</span></a><a href="/tools/you-com/"><strong>You.com Search APIs</strong><span>为 AI 应用提供实时网页搜索、内容提取和答案 API。</span></a></div></section></article><aside class="article-aside"><h2>PyPI</h2><ul><li><a href="#part-1">主要用途</a></li><li><a href="#part-2">使用提醒</a></li><li><a href="#part-3">同类工具</a></li></ul><p><a href="/developer-api-tools/">返回开发与 API</a></p></aside></div></div></main>
-<footer class="site-footer">
-  <div class="container footer-inner">
-    <div><h2>迈引导航</h2><p>为中文用户整理跨境办公与出海常用工具入口。</p></div>
-    <div class="footer-links"><h2>浏览</h2><a href="/tools/">全部工具</a><a href="/#categories">工具分类</a><a href="/about/">关于本站</a></div>
-    <div class="footer-links"><h2>说明</h2><a href="/privacy/">隐私政策</a><a href="/terms/">使用条款</a><a href="https://github.com/mayin-tools/mayin-tools.github.io/issues" target="_blank" rel="noopener noreferrer external">反馈问题</a></div>
-  </div>
-  <div class="container footer-bottom">© 2026 迈引导航 · 第三方工具导航，与所列工具运营方无隶属关系。</div>
-</footer>
-<aside class="favorite-drawer" data-favorite-drawer hidden aria-label="我的收藏">
-  <button class="drawer-scrim" type="button" data-favorite-close aria-label="关闭收藏"></button>
-  <div class="drawer-panel" tabindex="-1"><div class="drawer-head"><h2>我的收藏</h2><button class="icon-button" type="button" data-favorite-close aria-label="关闭收藏">×</button></div><ul class="favorite-list" data-favorite-list></ul></div>
-</aside>
-<div class="consent-banner" data-consent-banner data-ga-id="G-EEKYMLMF2H" hidden role="region" aria-label="访问统计设置">
-  <div><strong>访问统计设置</strong><p>同意后才会加载 Google Analytics，用于了解网站访问情况和常用功能的使用情况。不同意不影响工具搜索和浏览。</p></div>
-  <div class="consent-actions"><button type="button" data-consent-reject>暂不启用</button><button class="primary-button" type="button" data-consent-accept>同意统计</button><a href="/privacy/">隐私说明</a></div>
+<div class="header-inner">
+<a class="brand" href="/"><span class="brand-mark">↗</span> 迈引导航</a>
+<nav aria-label="主导航" class="main-nav" data-main-nav="">
+<a href="/">首页</a>
+<a href="/tools/">全部工具</a><a href="/guides/">实用指南</a>
+<a href="/#categories">分类</a>
+<a href="/about/">关于</a>
+</nav>
+<div class="header-actions">
+<button aria-label="打开我的收藏" class="icon-button" data-favorite-open="" title="我的收藏" type="button">☆</button>
+<button aria-expanded="false" aria-label="打开导航菜单" class="icon-button menu-button" data-menu-button="" title="菜单" type="button">☰</button>
 </div>
-<script src="/assets/app.js" defer></script>
+</div>
+</header>
+<main id="main"><nav aria-label="面包屑" class="breadcrumbs container"><ol><li><a href="/">首页</a></li><li><a href="/developer-api-tools/">开发与 API</a></li><li><span aria-current="page">PyPI</span></li></ol></nav><header class="article-head"><div class="container"><p class="eyebrow">开发与 API</p><h1>PyPI 是什么？安装 Python 包前先看名称、版本和来源</h1><p>PyPI（Python Package Index）用于分发和查找 Python 软件包。很多 `pip install` 安装的包都来自这里，但“能安装”不等于“值得信任”，项目名称、版本、维护状态和依赖来源都需要判断。</p><div class="official-line"><a class="primary-button" data-category-id="developer-api" data-tool-id="pypi" data-tool-open="" href="https://pypi.org/" rel="noopener noreferrer external" target="_blank">访问 PyPI 官方网站 ↗</a><span class="official-domain">将打开 pypi.org</span><button aria-pressed="false" class="favorite-button" data-favorite-id="pypi" type="button">☆ 收藏</button></div></div></header><div class="container tool-main"><div class="article-layout"><article class="article-body compact-tool-body"><section id="part-1"><h2>安装包时不要只复制第一条命令</h2><p>先确认项目名称是否拼写正确，再查看项目主页、发布历史和维护者信息。恶意包经常利用相似拼写混淆用户。对重要项目，最好从官方文档进入对应 PyPI 页面，而不是只根据搜索结果猜包名。</p></section><section id="part-2"><h2>用虚拟环境减少依赖冲突</h2><p>不同项目可能依赖同一个库的不同版本。把项目依赖放进 `venv`、uv、Poetry 或其他隔离环境，可以避免全局 Python 被不同项目反复覆盖。部署环境还应固定依赖版本并保存可复现的依赖清单。</p></section><aside aria-label="虎跃加速器赞助内容" class="promo sponsor-huyue">
+<p class="promo-label">广告</p>
+<a class="promo-card" data-placement="tool_developer-api" data-promo-click="" href="https://huyuejsq.co/" rel="sponsored noopener noreferrer" target="_blank">
+<span class="promo-brand"><img alt="" class="promo-brand-logo" decoding="async" height="72" loading="lazy" src="/assets/huyue-logo.png" width="72"/><span class="promo-brand-text"><strong>虎跃加速器</strong></span></span>
+<span class="promo-copy"><small class="promo-kicker">影视 · 游戏 · 直播</small><strong class="promo-title">给你的次元体验，加点速度。</strong><span class="promo-desc">电脑与手机客户端，查看当前套餐、线路说明与客户端下载信息。</span><span class="promo-chips"><span>多平台客户端</span><span>套餐与线路</span></span></span>
+<span class="promo-cta"><strong>查看套餐与客户端 ↗</strong></span>
+</a>
+</aside><section id="part-3"><h2>版本更新不要盲目追最新</h2><p>新版本可能修复漏洞，也可能引入不兼容修改。生产项目升级前，应看发布说明、测试关键功能并核对依赖链。如果包长期无人维护或发布者突然变化，尤其需要谨慎。</p></section><section id="part-4"><h2>发布自己的包也要保护账号</h2><p>维护者账号一旦被盗，攻击者可能发布恶意版本。发布者应启用 PyPI 支持的强认证方式，并把自动发布凭据限制在最小权限范围内。</p></section><section id="part-5"><h2>PyPI 还可以和哪些工具比较</h2><div class="related-list"><a href="/tools/visual-studio-code/"><strong>Visual Studio Code 怎么用</strong><span>Visual Studio Code（VS Code）适合日常写代码、查看项目、使用 Git、运行终端和调试…</span></a><a href="/tools/github/"><strong>GitHub 怎么用</strong><span>GitHub 用于代码托管、Issue、Pull Request、评审和 Actions 自动化。第一次使用…</span></a><a href="/tools/docker/"><strong>Docker 是什么</strong><span>用于构建、运行和分发容器化应用的开发平台。 如果你正在比较同类工具，可以先确认它是否符合当前任务，再查看官网…</span></a></div></section><p><strong>包名相似是安装前最值得多看一眼的地方。</strong> 从项目文档复制安装命令通常比凭记忆输入包名更安全；安装前可以顺手看项目主页、维护者、最近版本和发布历史。生产环境应固定依赖版本并保留依赖清单，避免一次无意的升级把整个环境带到不同状态。</p><p>在生产环境安装第三方 Python 包时，建议把包名、版本和依赖锁定下来，而不是每次都安装“最新版本”。尤其是名称相近的包，要确认维护者、项目主页和发布历史，避免误装拼写相似的第三方包。团队项目最好通过 requirements、lockfile 或环境管理工具记录依赖，这样测试、部署和问题回溯才有一致基础。</p><p class="source-note">官方资料：<a href="https://pypi.org/help/" rel="noopener noreferrer external" target="_blank">PyPI 官方帮助</a></p></article><aside class="article-aside"><h2>快速阅读</h2><ul><li><a href="#part-1">安装包时不要只复制第一条命令</a></li><li><a href="#part-2">用虚拟环境减少依赖冲突</a></li><li><a href="#part-3">版本更新不要盲目追最新</a></li><li><a href="#part-4">发布自己的包也要保护账号</a></li><li><a href="#part-5">PyPI 还可以和哪些工具比较</a></li></ul><p><a href="/developer-api-tools/">返回 开发与 API</a></p></aside></div></div></main>
+<footer class="site-footer">
+<div class="container footer-inner">
+<div><h2>迈引导航</h2><p>为中文用户整理跨境办公与出海常用工具入口。</p></div>
+<div class="footer-links"><h2>浏览</h2><a href="/tools/">全部工具</a><a href="/guides/">实用指南</a><a href="/#categories">工具分类</a><a href="/about/">关于本站</a></div>
+<div class="footer-links"><h2>说明</h2><a href="/privacy/">隐私政策</a><button class="footer-action" data-consent-manage="" type="button">统计设置</button><a href="/terms/">使用条款</a><a href="https://github.com/mayin-tools/mayin-tools.github.io/issues" rel="noopener noreferrer external" target="_blank">反馈问题</a></div>
+<div class="footer-links friend-links"><h2>友情链接</h2><a href="https://papaya-vacherin-721f08.netlify.app/" rel="noopener noreferrer external" target="_blank">出海工具箱</a><a href="https://agoodvpn.github.io/vpn-guide/" rel="noopener noreferrer external" target="_blank">VPN 指南</a><a href="https://jigen-pocket.proud-2531.chatgpt.site/" rel="noopener noreferrer external" target="_blank">次元口袋</a><a href="https://guangying-nav.woshioyea.workers.dev/" rel="noopener noreferrer external" target="_blank">光影导航</a><a href="https://cyroad.netlify.app/" rel="noopener noreferrer external" target="_blank">ACG 导航</a></div></div>
+<div class="container footer-bottom">© 2026 迈引导航 · 第三方工具导航，请以各官方网站信息为准。</div>
+</footer>
+<aside aria-labelledby="favorite-title" aria-modal="true" class="favorite-drawer" data-favorite-drawer="" hidden="" role="dialog">
+<button aria-label="关闭收藏" class="drawer-scrim" data-favorite-close="" type="button"></button>
+<div class="drawer-panel" tabindex="-1"><div class="drawer-head"><h2 id="favorite-title">我的收藏</h2><button aria-label="关闭收藏" class="icon-button" data-favorite-close="" type="button">×</button></div><ul class="favorite-list" data-favorite-list=""></ul></div>
+</aside>
+<div aria-label="访问统计设置" class="consent-banner" data-consent-banner="" data-ga-id="G-EEKYMLMF2H" hidden="" role="region">
+<div><strong>访问统计设置</strong><p>同意后才会加载 Google Analytics，用于了解网站访问情况和常用功能的使用情况。不同意不影响工具搜索和浏览。</p></div>
+<div class="consent-actions"><button data-consent-reject="" type="button">暂不启用</button><button class="primary-button" data-consent-accept="" type="button">同意统计</button><a href="/privacy/">隐私说明</a></div>
+</div>
+<script defer="" src="/assets/app.js"></script>
 </body>
 </html>
